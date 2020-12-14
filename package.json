@@ -1,0 +1,22 @@
+{
+  "name": "bpmn-js-documentation-viewer",
+  "version": "0.0.1",
+  "description": "A simple module extension for bpmn-js to show documentation content",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.sh4.red/luca.bonora/bpmn-js-documentation-viewer.git"
+  },
+  "keywords": [
+    "bpmn-js",
+    "bpmn-js-module",
+    "documentation",
+    "viewer",
+    "html"
+  ],
+  "author": "Luca Bonora <luca.bonora@sharedchains.com>",
+  "license": "MIT"
+}
