@@ -4,6 +4,9 @@
   "description": "A simple module extension for bpmn-js to show documentation content",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
+    "all": "run-s lint test",
+    "dev": "npm test -- --no-single-run --auto-watch",
     "test": "karma start"
   },
   "repository": {
@@ -18,5 +21,27 @@
     "html"
   ],
   "author": "Luca Bonora <luca.bonora@sharedchains.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.15.0",
+    "eslint-plugin-bpmn-io": "^0.11.0",
+    "karma": "^5.2.3",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha": "^2.0.1",
+    "karma-sinon-chai": "^2.0.2",
+    "karma-webpack": "^4.0.2",
+    "mocha": "^8.2.1",
+    "mocha-test-container-support": "^0.2.0",
+    "npm-run-all": "^4.1.5",
+    "puppeteer": "^5.5.0",
+    "raw-loader": "^4.0.2",
+    "sinon": "^9.2.2",
+    "sinon-chai": "^3.5.0",
+    "webpack": "^5.10.1"
+  },
+  "dependencies": {
+    "bpmn-js": "^7.5.0",
+    "jquery": "^3.5.1"
+  }
 }
