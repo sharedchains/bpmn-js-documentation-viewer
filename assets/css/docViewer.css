@@ -7,6 +7,8 @@
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     border-top: 12px solid transparent;
+
+    z-index: 100;
 }
 
 .doc-overlay.full {
@@ -31,6 +33,8 @@
     margin-left: 150px;
     margin-top: 50px;
     background: white;
+
+    z-index: 1000;
 }
 
 .doc-modal > .doc-modal-content {
