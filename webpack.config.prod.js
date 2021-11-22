@@ -1,7 +1,6 @@
-console.log(__dirname);
 module.exports = {
     mode: 'production',
-    entry: "./lib/docViewer.js",
+    entry: "./lib/docviewer/docViewer.js",
     externals: {
       jquery: 'jQuery',
       bootstrap: 'bootstrap'

@@ -84,3 +84,6 @@
     max-width: none !important;
 }
 
+.modal-dialog.reactModal {
+    width: 90%;
+}

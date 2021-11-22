@@ -1,7 +1,7 @@
 'use strict';
 
 import BpmnModeler from 'bpmn-js/lib/Modeler';
-import DocViewerModule from '../lib';
+import DocViewerModule from '../lib/docviewer';
 
 import fileDrop from 'file-drops';
 
