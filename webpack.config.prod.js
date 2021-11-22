@@ -1,6 +1,6 @@
 console.log(__dirname);
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: "./lib/docViewer.js",
     externals: {
       jquery: 'jQuery',
@@ -10,8 +10,8 @@ module.exports = {
       library: 'DocViewer',
       libraryTarget: 'window',
       libraryExport: 'default',
-      path: __dirname + '/example',
+      path: __dirname + '/dist/',
       filename: 'docViewer.bundle.js',
     },
-    devtool: 'cheap-module-source-map'    
+    devtool: 'source-map'    
 };

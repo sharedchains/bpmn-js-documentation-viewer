@@ -7,7 +7,7 @@ module.exports = {
   },
   externals: {
     jquery: 'jQuery',
-    bootstrap: 'Bootstrap'
+    bootstrap: 'bootstrap'
   },
   output: {
     filename: '[name].bundle.js',
@@ -27,8 +27,7 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         { from: './node_modules/bpmn-js/dist/assets/**/*', to: '.' },
-        { from: './assets/**/*', to: '.' },
-        { from: './assets/css/docViewer.css', to: './style'}
+        { from: './assets/**/*', to: '.' }
       ]
     })
   ],
