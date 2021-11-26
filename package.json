@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "all": "run-s lint test bundle",
-    "bundle": "webpack --mode production",
-    "build": "webpack --config webpack.config.prod.js",
+    "bundle": "webpack --config webpack.config.prod.js --mode production",
     "bundle:watch": "webpack -w",
     "start": "webpack serve --content-base ./example --open",
     "lint": "eslint .",
@@ -32,6 +31,7 @@
     "copy-webpack-plugin": "^8.1.1",
     "eslint": "^7.26.0",
     "eslint-plugin-bpmn-io": "^0.12.0",
+    "eslint-plugin-react": "^7.27.1",
     "file-drops": "^0.4.0",
     "karma": "^6.3.2",
     "karma-chrome-launcher": "^3.1.0",

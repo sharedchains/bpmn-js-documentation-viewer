@@ -80,10 +80,10 @@
     background: #555;
 }
 
-#myModal .modal-dialog {
+#bootstrapModal .modal-dialog {
     max-width: none !important;
 }
 
 .modal-dialog.reactModal {
-    width: 90%;
+    width: 90vw;
 }
