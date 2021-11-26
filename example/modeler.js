@@ -10,7 +10,6 @@ import exampleXML from './resources/example.bpmn';
 const url = new URL(window.location.href);
 
 const persistent = url.searchParams.has('p');
-const active = url.searchParams.has('e');
 
 const initialDiagram = (() => {
   try {

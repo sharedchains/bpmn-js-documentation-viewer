@@ -1,5 +1,5 @@
 import Modeler from 'bpmn-js/lib/Modeler';
-import DocViewerModule from '../../lib';
+import DocViewerModule from '../../lib/docviewer';
 
 import simpleDiagram from '../bpmn/process.bpmn';
 
