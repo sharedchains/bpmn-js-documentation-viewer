@@ -5,6 +5,10 @@ module.exports = {
   entry: {
     modeler: './example/modeler.js'
   },
+  externals: {
+    jquery: 'jQuery',
+    bootstrap: 'bootstrap'
+  },
   output: {
     filename: '[name].bundle.js',
     path: __dirname + '/example'

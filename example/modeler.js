@@ -1,7 +1,7 @@
 'use strict';
 
 import BpmnModeler from 'bpmn-js/lib/Modeler';
-import DocViewerModule from '../lib';
+import DocViewerModule from '../lib/docviewer';
 
 import fileDrop from 'file-drops';
 
@@ -10,7 +10,6 @@ import exampleXML from './resources/example.bpmn';
 const url = new URL(window.location.href);
 
 const persistent = url.searchParams.has('p');
-const active = url.searchParams.has('e');
 
 const initialDiagram = (() => {
   try {

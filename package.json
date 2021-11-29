@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "all": "run-s lint test bundle",
-    "bundle": "webpack --mode production",
+    "bundle": "webpack --config webpack.config.prod.js --mode production",
     "bundle:watch": "webpack -w",
     "start": "webpack serve --content-base ./example --open",
     "lint": "eslint .",
@@ -31,6 +31,7 @@
     "copy-webpack-plugin": "^8.1.1",
     "eslint": "^7.26.0",
     "eslint-plugin-bpmn-io": "^0.12.0",
+    "eslint-plugin-react": "^7.27.1",
     "file-drops": "^0.4.0",
     "karma": "^6.3.2",
     "karma-chrome-launcher": "^3.1.0",
@@ -53,6 +54,7 @@
   "dependencies": {
     "bootstrap": "^4.6.1",
     "camunda-modeler-plugin-helpers": "^3.4.0-alpha.1",
+    "dompurify": "^2.3.3",
     "jquery": "^3.6.0",
     "min-dash": "^3.5.2",
     "min-dom": "^3.1.3",
